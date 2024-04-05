@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
-import axios from "axios";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
       <header className="App-header">
         <p>Hello world</p>
       </header>
+      <Footer />
     </div>
   );
 }
